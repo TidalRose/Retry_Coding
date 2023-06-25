@@ -32,6 +32,10 @@ body {
     width: 100%;
     background: #2ddf5c;
     padding: 8px 16px;
+}
+
+.main-header>div {
+    display: inline-block;
     vertical-align: middle;
 }
 
@@ -40,10 +44,6 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
-}
-
-.main-header>div {
-    display: inline-block;
 }
 
 .main-nav {
@@ -68,4 +68,22 @@ body {
 .main-nav__item a {
     text-decoration: none;
     color: #0e4f1f;
+}
+
+.main-nav__item a::after {
+    content: " (Link)";
+    color: red;
+}
+
+.main-nav__item a:hover {
+    color: white;
+}
+
+.main-nav__item a:active {
+    color: white;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 20px;
 }
