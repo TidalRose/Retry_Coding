@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.div-box {
+    padding: 1px 2px 3px 4px;
+    margin: 1px 2px 3px 4px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.div-box-special {
+    height: 300px;
+    width: 50%;
+    display: none;
+}
+
+div:last-of-type:hover {
+    color: rebeccapurple;
+    border-color: rebeccapurple;
+}
